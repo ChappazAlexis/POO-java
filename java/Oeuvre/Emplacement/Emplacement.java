@@ -1,6 +1,8 @@
 package Oeuvre.Emplacement;
 
-public class Emplacement {
+import Oeuvre.Oeuvre;
+
+public class Emplacement extends Oeuvre {
 
     private String rangee;
     public String getRangee() {

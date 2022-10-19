@@ -16,6 +16,7 @@ public class Ouvrage extends Oeuvre{
     public Ouvrage () {}
 
     public Ouvrage (String editeur) {
+
         this.editeur = editeur;
     }
 

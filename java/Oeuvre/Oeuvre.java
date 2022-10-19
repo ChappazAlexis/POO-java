@@ -37,7 +37,7 @@ public abstract class Oeuvre {
         this.support = support;
     }
 
-    protected String titre;
+    public static String titre;
     protected int nbExemplaire;
     protected String genre;
     protected String support;

@@ -28,7 +28,7 @@ public class Film extends Media {
 
     public Film () {}
 
-    public Film (String titre, String genre, String realisateur, String acteur, int ageLimite, String support) {
+    public Film (String titre, String genre, String realisateur, String acteur, int ageLimite, String support, int nbExemplaire) {
 
         this.titre = titre;
         this.genre = genre;
@@ -36,10 +36,11 @@ public class Film extends Media {
         this.acteur = acteur;
         this.ageLimite = ageLimite;
         this.support = support;
+        this.nbExemplaire = nbExemplaire;
     }
 
     @Override
     public String toString() {
-        return "\nFilm\nTitre : " + this.titre + ", Genre : " + this.genre + ", Realisateur : " + this.realisateur + ", Acteur : " + this.acteur + ", Age limite : " + this.ageLimite + ", Support : " +  this.support;
+        return "\nFilm\nTitre : " + this.titre + ", Genre : " + this.genre + ", Realisateur : " + this.realisateur + ", Acteur : " + this.acteur + ", Age limite : " + this.ageLimite + ", Support : " +  this.support + ", Nombre d'exemplaire : " + this.nbExemplaire;
     }
 }
